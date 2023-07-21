@@ -1,0 +1,13 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 96%;
+  @apply m-4 bg-[var(--gray-bg-color)] ;
+
+}
+
+#root {
+  height: 100%;
+}

@@ -1,0 +1,39 @@
+.container {
+  @apply h-full w-full bg-[var(--white-bg-color)] rounded-md shadow m-auto;
+
+  .nav {
+    @apply flex gap-4 items-center;
+
+    .title {
+      @apply text-2xl font-bold;
+    }
+
+    .back_nav {
+      @apply w-7 h-7 bg-gray-200 rounded-sm hover:cursor-pointer flex justify-center items-center;
+    }
+  }
+
+  .nav_without_lang {
+    @apply p-4;
+  }
+
+  .nav_with_lang {
+    @apply flex gap-4 items-center p-4 pb-1;
+  }
+
+  .language {
+    @apply ml-[60px] pb-2;
+  }
+
+  .children_full {
+    @apply h-[calc(100%-62px)] max-h-[calc(100%-62px)] p-4 overflow-y-auto;
+  }
+
+  .children_partial {
+    @apply h-[calc(100%-84px)] max-h-[calc(100%-84px)] p-4;
+  }
+}
+
+.divider {
+  @apply border-[0.5px] border-gray-200;
+}
